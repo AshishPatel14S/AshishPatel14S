@@ -1,16 +1,66 @@
-## Hi there 👋
+# 👋 Hi, I'm Ashish Patel
 
-<!--
-**AshishPatel14S/AshishPatel14S** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a motivated **Data Analyst & Aspiring Data Scientist** pursuing a Master’s in **Big Data Analytics** at San Diego State University (4.0 GPA). With a background in **Python, SQL, Machine Learning, and Data Visualization**, I’m passionate about uncovering actionable insights from complex datasets and building scalable solutions that create real-world impact.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🎓 Education
+
+- **Master of Science – Big Data Analytics**, San Diego State University (2024 – Present)  
+  _Courses: Big Data Tools & Methods, Machine Learning Engineering, Enterprise Databases, GIS Programming with Python_
+
+
+---
+
+## 💼 Experience
+
+### 💻 Graduate Assistant – Data Research Analyst, SDSU  
+- Developed interactive Tableau dashboards for satellite launch datasets combining real-time and historical views  
+- Automated data refreshes with Tableau incremental loads to reduce manual efforts  
+- Defined KPIs to monitor mission performance, seasonal launch patterns, and anomaly detection
+
+
+---
+
+## 💡 Projects
+
+- **State Maps**  
+  Geospatial mapping of Indian volcanoes using Python, Folium, and GeoJSON
+
+---
+
+## 🧰 Skills
+
+- **Languages:** Python (Pandas, NumPy, Matplotlib), SQL, R  
+- **Data Tools:** Tableau, Excel, Google Sheets, Jupyter Notebook  
+- **Database:** MySQL, PostgreSQL, ETL
+- **ML & Stats:** Scikit-Learn (Regression, Classification), Descriptive Statistics  
+- **Other:** Git/GitHub, AWS
+
+---
+
+## 📜 Certifications
+
+- CS50’s Introduction to Programming with Python – Harvard  
+- Google Data Analytics Professional Certificate
+
+---
+
+## 🎯 Goals
+
+- Apply ML models to solve domain-specific challenges  
+- Contribute to impactful open-source projects  
+- Build end-to-end pipelines and dashboards that support decision-making  
+- Land a full-time role in data science or analytics by 2026
+
+---
+
+## 📫 Contact
+
+- 📧 Email: [apatel5569@sdsu.edu](mailto:apatel5569@sdsu.edu)  
+- 🔗 LinkedIn: [ashish-patel-39b50b292](https://www.linkedin.com/in/ashish-patel-39b50b292/)
+
+---
+
+⭐ _Thanks for visiting! Let’s connect and collaborate on data-driven innovations._
+
