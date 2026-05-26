@@ -57,7 +57,7 @@ I'm a motivated **Data Analyst & Aspiring Data Scientist** pursuing a Master’s
 
 ## 📫 Contact
 
-- 📧 Email: [apatel5569@sdsu.edu](mailto:apatel5569@sdsu.edu)  
+- 📧 Email: [ashishpatelap1403@gmail.com](mailto:ashishpatelap1403@gmail.com)  
 - 🔗 LinkedIn: [ashish-patel-39b50b292](https://www.linkedin.com/in/ashish-patel-39b50b292/)
 
 ---
