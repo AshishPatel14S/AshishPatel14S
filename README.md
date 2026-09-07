@@ -1,116 +1,118 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Ashish%20Patel&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Engineer%20%7C%20Data%20Analyst%20%7C%20Software%20Engineer&descAlignY=58&descSize=18&descColor=a8d8ea&animation=fadeIn" width="100%"/>
+# Ashish Patel
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-16302b?style=flat-square&logo=vercel&logoColor=white)](https://ashishpatelde.vercel.app)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-patel-39b50b292/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ashishpatelap1403@gmail.com)
-&nbsp;
-[![SDSU MS Big Data Analytics — GPA 4.0](https://img.shields.io/badge/SDSU_MS_Big_Data_Analytics-GPA_4.0-CC0033?style=flat-square)](https://www.sdsu.edu)
+I build the pipelines that move data into lakehouses, the validation that catches bad rows early, and the dashboards and applications that put the result in front of people.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-D7F55E?style=for-the-badge&logo=vercel&logoColor=16302b)](https://ashishpatelde.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-16302b?style=for-the-badge&logo=linkedin&logoColor=D7F55E)](https://www.linkedin.com/in/ashish-patel-39b50b292/)
+[![Email](https://img.shields.io/badge/Email-16302b?style=for-the-badge&logo=gmail&logoColor=D7F55E)](mailto:ashishpatelap1403@gmail.com)
+
+`4 yrs shipping pipelines` · `10M+ records integrated` · `Seattle, WA`
 
 </div>
 
 ---
 
-Data engineer with **4 years of industry experience** across the full path data takes — batch and near-real-time ingestion in Python, PySpark and Kafka, modeled with dbt in Snowflake and Delta Lake, orchestrated in Airflow, and surfaced through Power BI, Tableau and Streamlit.
+Four years across the full path data takes. On the **engineering** side that's batch and near-real-time ingestion in Python, PySpark and Kafka, landing in Delta Lake and Snowflake, modeled with dbt and orchestrated in Airflow — with Great Expectations and OpenLineage making sure schema drift surfaces at ingest rather than three dashboards later.
 
-Two things shape how I work. First, **data quality is not a downstream problem** — Great Expectations suites, dbt tests and OpenLineage tracking mean schema drift surfaces at ingest rather than three dashboards later. Second, **a pipeline is only worth what someone does with it**, which is why I spend as much time on the reporting and application layer as on the ingestion side.
+On the **BI and analytics** side, Power BI, Tableau and Streamlit, plus the SQL and experimentation work behind them: star schemas, window functions, A/B testing, cohort and RFM analysis. A pipeline is only worth what someone does with it.
 
-I hold an **MS in Big Data Analytics** from San Diego State (GPA 4.0) and I'm open to data engineer, data analyst and software engineer roles.
+And on the **software** side, full-stack builds in Next.js and FastAPI — a deterministic scoring engine over 65k clinical trials, an 8-node RAG pipeline with retry routing, Postgres and Redis behind both.
+
+Open to **data engineer**, **data analyst** and **software engineer** roles.
 
 ---
 
 ## Experience
 
-**Data Engineer — Digit Insurance** *(Jun 2022 – Jul 2024)*
+**Graduate Data Engineer** — San Diego State University · *Sep 2024 – May 2026*
+AWS S3 research data lake unifying telemetry, mission logs, REST APIs and geospatial data. Great Expectations and OpenLineage catch schema drift at ingest — data-quality defects down **40%**, research reporting time down **80%**.
 
-Engineered batch and near-real-time ETL/ELT pipelines in Python, SQL, PySpark and Kafka, integrating claims, policy, billing and REST API sources across **10M+ insurance records** into a centralized Databricks lakehouse. Built Delta Lake medallion workflows on incremental merge patterns instead of full reloads, improving processing efficiency by **25%** and lowering daily cluster cost. Modeled claims, billing and policy domains in Snowflake with dbt, cutting data retrieval time by **50%** for underwriting and finance reporting.
-
-On the reporting side, I automated recurring claims and finance reporting in partnership with claims operations — eliminating **100+ hours of manual work per month** and delivering the daily curated SLA dataset behind within-SLA claim settlement rising from **65% to 95%**.
-
-**Graduate Data Engineer — San Diego State University** *(Sep 2024 – May 2026)*
-
-Designed an AWS S3 research data lake with raw and curated zones, consolidating four heterogeneous source types — telemetry, mission logs, REST APIs and geospatial — into one governed dataset. Built reusable Python, PySpark and SQL ingestion and schema-normalization pipelines that cut downstream data-quality defects by **40%**, backed by Great Expectations validation suites and Marquez/OpenLineage lineage tracking. Tuned Spark jobs through partitioning, caching and a Parquet layout redesign, and delivered self-serve Streamlit dashboards that reduced research staff preparation and reporting time by **80%**.
+**Data Engineer** — Digit Insurance · *Jun 2022 – Jul 2024*
+Batch and near-real-time ETL in Python, PySpark and Kafka across **10M+** insurance records into a Databricks lakehouse, modeled in Snowflake with dbt. Incremental merge over full reloads cut processing **25%**; automating claims reporting eliminated **100+ hours a month** and helped lift within-SLA settlement from **65% to 95%**.
 
 ---
 
 ## Projects
 
-### Data & Analytics Engineering
+### Data & analytics engineering
 
-**[Snowflake · dbt · Airflow Pipeline](https://github.com/AshishPatel14S/snowflake-dbt-airflow-data-pipeline)** — `Snowflake` `dbt` `Airflow` `Astronomer Cosmos` `AWS S3` `Docker`
+| Project | Stack | What it does |
+|---|---|---|
+| **[Snowflake · dbt · Airflow](https://github.com/AshishPatel14S/snowflake-dbt-airflow-data-pipeline)** | Snowflake, dbt, Airflow, Docker | S3→Snowflake ELT with 8 dbt models and 3 SCD Type 2 snapshots |
+| **[SaaS Revenue Platform](https://github.com/AshishPatel14S/saas-revenue-analytics-databricks-dbt)** | Databricks, dbt, Unity Catalog | 9 Gold marts for MRR, churn and Customer 360, with reconciliation tests |
+| **[Health Sensing Pipeline](https://github.com/AshishPatel14S/health-sensing-data-pipeline)** | Python, Pandas, Parquet | JSON events → Parquet; malformed rows logged, never fatal |
 
-S3-to-Snowflake ELT pipeline for Airbnb booking, listing and host data, orchestrated as Airflow DAGs via Astronomer Cosmos on a containerized Docker deployment. Eight dbt models and three SCD Type 2 snapshots with validation tests produce history-tracked dimensional and OBT outputs for repeatable daily refreshes.
+### Analytics & experimentation
 
-**[SaaS Revenue Data Platform](https://github.com/AshishPatel14S/saas-revenue-analytics-databricks-dbt)** — `Databricks` `dbt` `Unity Catalog` `SQL` `Python`
+| Project | Stack | Finding |
+|---|---|---|
+| **[Airline Operations](https://github.com/AshishPatel14S/airline-ops-intelligence)** | PostgreSQL, Power BI, DAX | Across 8.4M flights, **76.5% of delay minutes are controllable** |
+| **[A/B Test Framework](https://github.com/AshishPatel14S/A-B-Test-Analysis)** | Python, SciPy, Statsmodels | **+1.95pp** checkout lift at p < 0.001, ~$9.9M annualized |
+| **[E-Commerce Dashboard](https://github.com/AshishPatel14S/ecommerce-sales-dashboard)** | Python, Streamlit, RFM | **Top 20% of customers drive 78% of revenue** |
 
-Databricks and dbt medallion platform over 8 SaaS source tables spanning customers, subscriptions, invoices, payments, product usage and support. Nine Gold-layer marts cover MRR, churn and reactivation, billing collections, engagement and Customer 360 — enforced by dbt uniqueness, relationship, accepted-value and MRR reconciliation tests.
+### Software & AI
 
-**[Health Sensing Data Pipeline](https://github.com/AshishPatel14S/health-sensing-data-pipeline)** — `Python` `Pandas` `PyArrow` `Parquet` `unittest`
-
-Turns raw JSON event logs into analytics-ready Parquet: validates required fields, logs and discards malformed events so a bad row can't halt the run, flattens nested metadata to avoid downstream joins, and normalizes timestamps to UTC. Unit tests cover extraction, transformation and aggregation, including empty and malformed inputs.
-
----
-
-### Analytics & Experimentation
-
-**[Airline Operations Intelligence](https://github.com/AshishPatel14S/airline-ops-intelligence)** — `PostgreSQL` `SQL` `Power BI` `DAX` `Star Schema`
-
-Across **8.4M BTS domestic flight records** and 17 U.S. carriers, **76.5% of all delay minutes turn out to be operationally controllable** — carrier issues (37%) and late-aircraft propagation (39.4%) dwarf weather and NAS combined, and the gap between best and worst carrier OTP is 16.9 percentage points. Built on a star schema with CTEs, window functions and CASE-based delay attribution, delivered as a two-page Power BI executive dashboard.
-
-**[A/B Test Analysis Framework](https://github.com/AshishPatel14S/A-B-Test-Analysis)** — `Python` `SciPy` `Statsmodels` `Bayesian Inference`
-
-Checkout experiment across 100K randomized users measuring a **+1.95pp conversion lift** (10.84% → 12.79%) at p < 0.001, 95% CI [1.55pp, 2.35pp], with an estimated ~$9.9M annualized revenue impact. Reusable framework covering SRM checks, power analysis, chi-square and z-test validation, and segmentation by device and user type.
-
-**[E-Commerce Sales Dashboard](https://github.com/AshishPatel14S/ecommerce-sales-dashboard)** — `Python` `Pandas` `Plotly` `Streamlit` `RFM` `Cohort Analysis`
-
-Cleaned 1.07M raw transactions down to 541K quality records across 5,942 customers in 38 countries, then built RFM segmentation and cohort retention views. Surfaced a **3× November revenue spike** and the finding that the **top 20% of customers generate 78% of revenue** — directly actionable for inventory planning and retention targeting.
+| Project | Stack | What it does |
+|---|---|---|
+| **[CureMatch](https://github.com/AshishPatel14S/curematchh)** | Next.js, TypeScript, Llama 3.3 | Scores patients against 65,081 trials — rules decide, the LLM only explains |
+| **[CaseRoom](https://github.com/AshishPatel14S/Caseroom)** | FastAPI, LangGraph, Qdrant, Redis | 8-node RAG pipeline generating adaptive clinical cases |
 
 ---
 
-### Software & AI Engineering
+## Toolkit
 
-**[CureMatch](https://github.com/AshishPatel14S/curematchh)** — `Next.js 14` `TypeScript` `SQLite` `Python` `Llama 3.3 70B` `LoRA`
+<div align="center">
 
-Clinical trial matching across **65,081 actively recruiting ClinicalTrials.gov studies**. A rule-based parser extracts excluded medications, lab thresholds and ECOG ranges into a derived database; a deterministic engine scores a patient profile on six weighted criteria in milliseconds. The LLM narrates verdicts and answers grounded questions but never touches the matching decision, so every exclusion traces back to a rule.
+**Languages & processing**
 
-**[CaseRoom](https://github.com/AshishPatel14S/Caseroom)** — `FastAPI` `LangGraph` `Qdrant` `Supabase` `Redis` `Next.js` `Stripe` `Docker`
+![Python](https://img.shields.io/badge/Python-16302b?style=flat-square&logo=python&logoColor=D7F55E)
+![SQL](https://img.shields.io/badge/SQL-16302b?style=flat-square&logo=postgresql&logoColor=D7F55E)
+![PySpark](https://img.shields.io/badge/PySpark-16302b?style=flat-square&logo=apachespark&logoColor=D7F55E)
+![Pandas](https://img.shields.io/badge/Pandas-16302b?style=flat-square&logo=pandas&logoColor=D7F55E)
+![TypeScript](https://img.shields.io/badge/TypeScript-16302b?style=flat-square&logo=typescript&logoColor=D7F55E)
+![R](https://img.shields.io/badge/R-16302b?style=flat-square&logo=r&logoColor=D7F55E)
 
-Adaptive USMLE study platform generating clinical cases through an 8-node LangGraph pipeline with a validator node that loops back on clinical errors. RAG over a Qdrant medical knowledge base grounds each vignette; a six-level mastery model across 76 topics routes the next case toward the student's weakest areas. Redis pre-generation runs the next case in the background so it lands instantly.
+**Pipelines & lakehouse**
 
----
+![Airflow](https://img.shields.io/badge/Airflow-16302b?style=flat-square&logo=apacheairflow&logoColor=D7F55E)
+![dbt](https://img.shields.io/badge/dbt-16302b?style=flat-square&logo=dbt&logoColor=D7F55E)
+![Kafka](https://img.shields.io/badge/Kafka-16302b?style=flat-square&logo=apachekafka&logoColor=D7F55E)
+![Databricks](https://img.shields.io/badge/Databricks-16302b?style=flat-square&logo=databricks&logoColor=D7F55E)
+![Snowflake](https://img.shields.io/badge/Snowflake-16302b?style=flat-square&logo=snowflake&logoColor=D7F55E)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-16302b?style=flat-square&logo=delta&logoColor=D7F55E)
+![AWS S3](https://img.shields.io/badge/AWS_S3-16302b?style=flat-square&logo=amazons3&logoColor=D7F55E)
+![Azure](https://img.shields.io/badge/Azure_Data_Factory-16302b?style=flat-square&logo=microsoftazure&logoColor=D7F55E)
 
-## Skills
+**BI & analytics**
 
-| | |
-|---|---|
-| **Programming** | Python (Pandas, NumPy, PySpark), SQL, TypeScript, R, Bash, CTEs, Window Functions |
-| **Data Engineering** | Apache Spark, Databricks, Kafka, Airflow, dbt, ETL/ELT, Incremental Loads |
-| **Cloud & Lakehouse** | AWS S3, Azure Data Factory, Azure Data Lake, Azure Synapse, Snowflake, Delta Lake, Unity Catalog, Medallion Architecture |
-| **Warehousing & Modeling** | PostgreSQL, MySQL, BigQuery, Dimensional Modeling, Star Schema, Data Marts, Query Optimization |
-| **Data Quality & DevOps** | Great Expectations, Marquez/OpenLineage, dbt Tests, Profiling, Git, Docker, CI/CD |
-| **Analytics & BI** | Power BI, DAX, Power Query, Tableau, Streamlit, Excel, A/B Testing, RFM, Cohort Analysis |
-| **Applications** | FastAPI, Next.js, React, Supabase, Redis, LangGraph, RAG, Qdrant |
+![Power BI](https://img.shields.io/badge/Power_BI-16302b?style=flat-square&logo=powerbi&logoColor=D7F55E)
+![Tableau](https://img.shields.io/badge/Tableau-16302b?style=flat-square&logo=tableau&logoColor=D7F55E)
+![Streamlit](https://img.shields.io/badge/Streamlit-16302b?style=flat-square&logo=streamlit&logoColor=D7F55E)
+![Plotly](https://img.shields.io/badge/Plotly-16302b?style=flat-square&logo=plotly&logoColor=D7F55E)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-16302b?style=flat-square&logo=scikitlearn&logoColor=D7F55E)
 
----
+**Applications & platform**
 
-## Education
+![FastAPI](https://img.shields.io/badge/FastAPI-16302b?style=flat-square&logo=fastapi&logoColor=D7F55E)
+![Next.js](https://img.shields.io/badge/Next.js-16302b?style=flat-square&logo=nextdotjs&logoColor=D7F55E)
+![React](https://img.shields.io/badge/React-16302b?style=flat-square&logo=react&logoColor=D7F55E)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16302b?style=flat-square&logo=postgresql&logoColor=D7F55E)
+![Redis](https://img.shields.io/badge/Redis-16302b?style=flat-square&logo=redis&logoColor=D7F55E)
+![Supabase](https://img.shields.io/badge/Supabase-16302b?style=flat-square&logo=supabase&logoColor=D7F55E)
+![Docker](https://img.shields.io/badge/Docker-16302b?style=flat-square&logo=docker&logoColor=D7F55E)
+![Git](https://img.shields.io/badge/Git-16302b?style=flat-square&logo=git&logoColor=D7F55E)
 
-**MS, Big Data Analytics** — San Diego State University *(May 2026, GPA 4.0)*
-Coursework: ML Engineering, Data Mining, Enterprise Database Management, GIS Programming, Reinforcement Learning, Big Data Tools & Methods
-
-**Certifications:** CS50's Introduction to Python (Harvard) · Google Data Analytics Professional Certificate
+</div>
 
 ---
 
 <div align="center">
 
-*Open to full-time data engineer, data analyst and software engineer roles — onsite or remote*
+**MS Big Data Analytics** · San Diego State University · GPA 4.0 · May 2026
+CS50 Introduction to Python (Harvard) · Google Data Analytics Professional Certificate
 
-[![Portfolio](https://img.shields.io/badge/See_the_full_portfolio-16302b?style=for-the-badge&logo=vercel&logoColor=white)](https://ashishpatelde.vercel.app)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
+[![Portfolio](https://img.shields.io/badge/See_the_full_portfolio-D7F55E?style=for-the-badge&logo=vercel&logoColor=16302b)](https://ashishpatelde.vercel.app)
 
 </div>
